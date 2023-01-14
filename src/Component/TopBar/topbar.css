@@ -1,0 +1,18 @@
+.topBar {
+  width: 100vw;
+  height: 17vh;
+  background: url("../../image/bg-header-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--Desaturated-Dark-Cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+}
+/* ==========MEDIA QUERY(MOBILE)======= */
+
+@media (max-width: 600px) {
+}
